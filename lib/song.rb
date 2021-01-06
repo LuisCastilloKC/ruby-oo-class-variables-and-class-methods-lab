@@ -1,10 +1,10 @@
 require 'pry'
 
 class Song
-
+    #class variabes
     @@count = 0
     @@artists = []
-    @@genres = []
+    @@genres = [] 
 
     
     attr_accessor :name, :artist, :genre
@@ -18,7 +18,7 @@ class Song
         @@genres << @genre
     end
 
-    def self.count
+    def self.count #class methods
         @@count
     end
     
